@@ -8,6 +8,7 @@ public class LeagueInvaders {
 	LeagueInvaders() {
 		frame=new JFrame();
 		panel=new GamePanel();
+		
 	}
 	void setup() {
 		frame.add(panel);
