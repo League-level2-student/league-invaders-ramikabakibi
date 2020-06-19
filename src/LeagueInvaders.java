@@ -11,6 +11,7 @@ public class LeagueInvaders {
 		
 	}
 	void setup() {
+		frame.addKeyListener(panel);
 		frame.add(panel);
 		frame.setSize(LeagueInvaders.WIDTH, LeagueInvaders.HEIGHT);
 		frame.setVisible(true);
