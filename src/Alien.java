@@ -2,12 +2,12 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Alien extends GameObject {
-Alien(int x, int y, int width, int height, int speed){
-	super(x, y, width, height, speed);
+Alien(int x, int y, int width, int height){
+	super(x, y, width, height);
 }
 
 	void update() {
-		
+		y+=speed;
 	}
 	
 	void draw(Graphics g) {

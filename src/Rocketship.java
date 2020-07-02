@@ -5,8 +5,8 @@ public class Rocketship extends GameObject {
 	int xspeed = 0;
 	int yspeed = 0;
 
-	Rocketship(int x, int y, int width, int height, int speed) {
-		super(x, y, width, height, speed);
+	Rocketship(int x, int y, int width, int height) {
+		super(x, y, width, height);
 		// TODO Auto-generated constructor stub
 	}
 
