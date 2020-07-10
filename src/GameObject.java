@@ -4,7 +4,7 @@ public class GameObject {
 	 int y;
 	 int width;
 	 int height;
-	 int speed=0;
+	 int speed=5;
 	 boolean isActive=true;
 
 	 GameObject(int x,int y, int width,int height ){

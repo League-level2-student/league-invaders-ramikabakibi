@@ -1,8 +1,10 @@
 import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class ObjectManager {
+public class ObjectManager implements ActionListener{
 Rocketship crewDragon;
 ArrayList<Projectile> projectiles=new ArrayList<Projectile>();
 ArrayList<Alien> aliens=new ArrayList<Alien>();
@@ -50,6 +52,11 @@ Random random=new Random();
 				projectiles.remove(projectiles.get(i));
 			}
 		}
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		addAlien();
 	}
 }
 
