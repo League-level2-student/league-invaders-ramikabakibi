@@ -39,7 +39,7 @@ public class Rocketship extends GameObject {
 		if (y + yspeed <= LeagueInvaders.HEIGHT - height - 25 && y + yspeed >= 0) {
 			y += yspeed;
 		}
-
+		super.update();
 	}
 
 	public void right() {
